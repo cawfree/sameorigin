@@ -8,6 +8,7 @@
   "license": "CC0-1.0",
   "private": false,
   "scripts": {
+    "build": "rm -rf dist ; tsc",
     "test": "jest"
   },
   "dependencies": {

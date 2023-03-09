@@ -8,5 +8,6 @@
     "strict": true,
     "skipLibCheck": true,
     "outDir": "dist",
-  }
+  },
+  "exclude": ["__tests__"]
 }
