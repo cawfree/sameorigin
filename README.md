@@ -1,4 +1,4 @@
-## `sameorigin`
+## `@cawfree/sameorigin`
 🤖 🧪 Masquerade as if you were their own frontend.
 
 [`sameorigin`](https://github.com/cawfree/sameorigin) generalizes the process of [__Same-Origin-Resource-Crossing__](https://github.com/cawfree/opensea-submarine), which allows you to work around the domain-based restrictions centralized services use to protect their APIs from third parties.
@@ -8,13 +8,15 @@
 You can install [`sameorigin`](https://github.com/cawfree/sameorigin) via [`yarn`](https://yarnpkg.com):
 
 ```shell
-yarn add sameorigin
+yarn add @cawfree/sameorigin
 ```
 
 Next, declare the domain you wish to squat on. In the following example, let's assume I want to bypass the [__CloudFlare__](https://www.cloudflare.com/) restrictions on the [__Blur Marketplace__](https://blur.io/):
 
 
 ```typescript
+import {sameorigin} from '@cawfree/sameorigin';
+
 const [axios, {close}] = await sameorigin({
   // Define the website url that has access permissions.
   squatURL: 'https://blur.io',
