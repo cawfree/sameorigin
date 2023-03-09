@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.test.ts blur 1`] = `
+{
+  "ethereum": {
+    "usd": 1526.66,
+  },
+}
+`;
+
+exports[`index.test.ts opensea 1`] = `
+{
+  "data": {
+    "categoriesV2": [
+      {
+        "imageUrl": "https://opensea.io/static/images/categories/maverick-art.png",
+        "name": "Art",
+        "slug": "art",
+      },
+      {
+        "imageUrl": "https://opensea.io/static/images/categories/maverick-gaming.png",
+        "name": "Gaming",
+        "slug": "gaming",
+      },
+      {
+        "imageUrl": "https://opensea.io/static/images/categories/maverick-membership.png",
+        "name": "Memberships",
+        "slug": "memberships",
+      },
+      {
+        "imageUrl": "https://opensea.io/static/images/categories/maverick-pfps.png",
+        "name": "PFPs",
+        "slug": "pfps",
+      },
+      {
+        "imageUrl": "https://opensea.io/static/images/categories/maverick-photography.png",
+        "name": "Photography",
+        "slug": "photography",
+      },
+    ],
+  },
+}
+`;
+
+exports[`index.test.ts opensea:carousel 1`] = `
+{
+  "data": {
+    "categoriesV2": [
+      {
+        "imageUrl": "https://opensea.io/static/images/categories/maverick-art.png",
+        "name": "Art",
+        "slug": "art",
+      },
+      {
+        "imageUrl": "https://opensea.io/static/images/categories/maverick-gaming.png",
+        "name": "Gaming",
+        "slug": "gaming",
+      },
+      {
+        "imageUrl": "https://opensea.io/static/images/categories/maverick-membership.png",
+        "name": "Memberships",
+        "slug": "memberships",
+      },
+      {
+        "imageUrl": "https://opensea.io/static/images/categories/maverick-pfps.png",
+        "name": "PFPs",
+        "slug": "pfps",
+      },
+      {
+        "imageUrl": "https://opensea.io/static/images/categories/maverick-photography.png",
+        "name": "Photography",
+        "slug": "photography",
+      },
+    ],
+  },
+}
+`;
+
+exports[`index.test.ts opensea:categories 1`] = `
+{
+  "data": {
+    "trendingCollectionsByCategory": {
+      "edges": [
+        {
+          "node": {
+            "banner": "https://i.seadn.io/gae/wwzLfDg6Fi1mKANIyhkxWVgu8SBbWRd3A2UB6q4NHd3YoBzU6C5UuDIvaOqG_5QBGyQ8lSjibO-EsKg9JP0uU6FTqpoOKwZrNv98?w=500&auto=format",
+            "drop": null,
+            "id": "Q29sbGVjdGlvblR5cGU6NjUyMzU2Ng==",
+            "isCategory": false,
+            "name": "The Metascapes",
+            "slug": "the-metascapes",
+            "verificationStatus": "SAFELISTED",
+            "windowCollectionStats": {
+              "floorPrice": {
+                "symbol": "ETH",
+                "unit": "0.119999",
+              },
+              "volume": {
+                "symbol": "ETH",
+                "unit": "1.68629999999999991",
+              },
+            },
+          },
+        },
+        {
+          "node": {
+            "banner": "https://i.seadn.io/gae/DLA-sw1dn7YIpH-OCaY1Ci9GAO7Vc6tMlKV-46PqvdS7quNvRXfZB214rbFAv1qG7eKx8rqqS5qgNAATHQcy-tej1BPWrqeMDWPs?w=500&auto=format",
+            "drop": null,
+            "id": "Q29sbGVjdGlvblR5cGU6MTI4NTQ1MTI=",
+            "isCategory": false,
+            "name": "Women Unite - 10k Assemble",
+            "slug": "women-unite-10k-assemble",
+            "verificationStatus": "VERIFIED",
+            "windowCollectionStats": {
+              "floorPrice": {
+                "symbol": "ETH",
+                "unit": "0.1669",
+              },
+              "volume": {
+                "symbol": "ETH",
+                "unit": "1.587319999999999842",
+              },
+            },
+          },
+        },
+        {
+          "node": {
+            "banner": "https://i.seadn.io/gcs/files/9e60f4b7ccbca0d6b0c1c377408b5242.jpg?w=500&auto=format",
+            "drop": null,
+            "id": "Q29sbGVjdGlvblR5cGU6NTk2Mjc2NQ==",
+            "isCategory": false,
+            "name": "Beautiful nature by Mohamed Boukabouz",
+            "slug": "photoswondersbymohamedboukabouz",
+            "verificationStatus": "SAFELISTED",
+            "windowCollectionStats": {
+              "floorPrice": {
+                "symbol": "ETH",
+                "unit": "0.001",
+              },
+              "volume": {
+                "symbol": "ETH",
+                "unit": "0.19900000000000001",
+              },
+            },
+          },
+        },
+        {
+          "node": {
+            "banner": "https://i.seadn.io/gcs/files/7b3278c432571f435004bbaf7ecea88a.jpg?w=500&auto=format",
+            "drop": null,
+            "id": "Q29sbGVjdGlvblR5cGU6MTkxNjA5OTg=",
+            "isCategory": false,
+            "name": "Rach Stewart Limited Editions",
+            "slug": "rach-stewart-limited-editions",
+            "verificationStatus": "SAFELISTED",
+            "windowCollectionStats": {
+              "floorPrice": {
+                "symbol": "ETH",
+                "unit": "0.07",
+              },
+              "volume": {
+                "symbol": "ETH",
+                "unit": "0.77000000000000024",
+              },
+            },
+          },
+        },
+        {
+          "node": {
+            "banner": "https://i.seadn.io/gcs/etherislands-1572734010.png?w=500&auto=format",
+            "drop": null,
+            "id": "Q29sbGVjdGlvblR5cGU6NTEzNQ==",
+            "isCategory": false,
+            "name": "EtherIslands",
+            "slug": "etherislands",
+            "verificationStatus": "SAFELISTED",
+            "windowCollectionStats": {
+              "floorPrice": {
+                "symbol": "ETH",
+                "unit": "0.3318",
+              },
+              "volume": {
+                "symbol": "ETH",
+                "unit": "0.070000000000000007",
+              },
+            },
+          },
+        },
+        {
+          "node": {
+            "banner": "https://i.seadn.io/gcs/files/efc1085c48960958256ec053ea31f488.png?w=500&auto=format",
+            "drop": null,
+            "id": "Q29sbGVjdGlvblR5cGU6MjM4MjE3MjU=",
+            "isCategory": false,
+            "name": "Front Row with Salma",
+            "slug": "front-row-with-salma",
+            "verificationStatus": "UNAPPROVED",
+            "windowCollectionStats": {
+              "floorPrice": {
+                "symbol": "ETH",
+                "unit": "0.0046",
+              },
+              "volume": {
+                "symbol": "ETH",
+                "unit": "0.064399999999999999",
+              },
+            },
+          },
+        },
+        {
+          "node": {
+            "banner": "https://i.seadn.io/gcs/files/37620ffb4a75a89ac6d532e59cb485a6.jpg?w=500&auto=format",
+            "drop": null,
+            "id": "Q29sbGVjdGlvblR5cGU6MjMwNDU2OTQ=",
+            "isCategory": false,
+            "name": "A Year in Portraits by Jeremy Cowart",
+            "slug": "a-year-in-portraits",
+            "verificationStatus": "UNAPPROVED",
+            "windowCollectionStats": {
+              "floorPrice": {
+                "symbol": "ETH",
+                "unit": "0.003",
+              },
+              "volume": {
+                "symbol": "ETH",
+                "unit": "0.061999999999999986",
+              },
+            },
+          },
+        },
+      ],
+    },
+  },
+}
+`;
