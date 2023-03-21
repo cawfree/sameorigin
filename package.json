@@ -1,6 +1,6 @@
 {
   "name": "@cawfree/sameorigin",
-  "version": "0.0.1-alpha.0",
+  "version": "0.0.1-alpha.1",
   "description": "🤖 🧪 Masquerade as if you were their own frontend.",
   "main": "dist",
   "repository": "https://github.com/cawfree/blurship",
