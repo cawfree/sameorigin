@@ -15,11 +15,13 @@ export const createServer = async ({
   headless = true,
   debug = false,
   executablePath = '/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome',
+  args = [],
 }: {
   readonly port?: number;
   readonly headless?: boolean;
   readonly debug?: boolean;
   readonly executablePath?: string;
+  readonly args?: readonly string[];
 }) => new Promise<{
     readonly close: () => Promise<void>;
 }>(
@@ -31,6 +33,7 @@ export const createServer = async ({
       headless,
       debug,
       executablePath,
+      args,
     });
 
     const context: Record<string, PageContext> = {};

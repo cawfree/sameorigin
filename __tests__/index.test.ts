@@ -49,7 +49,8 @@ describe('index.test.ts', () => {
         data: {
           id: "CategoryScrollerQuery",
           query: "query CategoryScrollerQuery(\n  $categories: [CategoryV2Slug!]!\n  $highQualityFilter: Boolean\n) {\n  trendingCollectionsByCategory(first: 7, categories: $categories, highQualityFilter: $highQualityFilter) {\n    edges {\n      node {\n        id\n        ...HomePageCollectionCard_data_3C7EJl\n      }\n    }\n  }\n}\n\nfragment HomePageCollectionCardFooter_data_3C7EJl on CollectionType {\n  windowCollectionStats(statsTimeWindow: ONE_DAY) {\n    floorPrice {\n      unit\n      symbol\n    }\n    volume {\n      unit\n      symbol\n    }\n  }\n}\n\nfragment HomePageCollectionCard_data_3C7EJl on CollectionType {\n  banner\n  name\n  verificationStatus\n  drop {\n    ...useDropState_data\n    id\n  }\n  ...HomePageCollectionCardFooter_data_3C7EJl\n  ...collection_url\n}\n\nfragment collection_url on CollectionType {\n  slug\n  isCategory\n}\n\nfragment useDropState_data on DropType {\n  stages {\n    startTime\n    endTime\n    id\n  }\n  chainData {\n    mintedItemCount\n    totalItemCount\n  }\n}\n",
-          variables: {"categories":["photography"],"highQualityFilter":true}},
+          variables: {"categories":["photography"],"highQualityFilter":true},
+        },
       }
     );
     expect(data).toMatchSnapshot();

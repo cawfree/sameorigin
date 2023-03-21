@@ -6,10 +6,12 @@ export async function createStealthBrowserContext({
   executablePath,
   headless,
   debug: dumpio = false,
+  args,
 }: {
   readonly executablePath: string;
   readonly headless: boolean;
   readonly debug?: boolean;
+  readonly args: readonly string[];
 }) {
   puppeteer.use(stealth());
 
@@ -24,6 +26,7 @@ export async function createStealthBrowserContext({
         '--mute-audio',
         '--no-sandbox' /* dangerous */,
         '--disable-dev-shm-usage',
+        ...args,
       ],
     })
   ) as unknown as Browser;

@@ -18,8 +18,8 @@ Next, declare the domain you wish to squat on. In the following example, let's a
 import {sameorigin} from '@cawfree/sameorigin';
 
 const [axios, {close}] = await sameorigin({
-  // Define the website url that has access permissions.
-  squatURL: 'https://blur.io',
+  // Define the website url that has access permissions and generates some requests.
+  squatURL: 'https://blur.io/airdrop',
 });
 
 const {data} = await axios({

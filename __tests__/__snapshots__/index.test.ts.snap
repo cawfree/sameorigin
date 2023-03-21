@@ -3,41 +3,7 @@
 exports[`index.test.ts blur 1`] = `
 {
   "ethereum": {
-    "usd": 1526.66,
-  },
-}
-`;
-
-exports[`index.test.ts opensea 1`] = `
-{
-  "data": {
-    "categoriesV2": [
-      {
-        "imageUrl": "https://opensea.io/static/images/categories/maverick-art.png",
-        "name": "Art",
-        "slug": "art",
-      },
-      {
-        "imageUrl": "https://opensea.io/static/images/categories/maverick-gaming.png",
-        "name": "Gaming",
-        "slug": "gaming",
-      },
-      {
-        "imageUrl": "https://opensea.io/static/images/categories/maverick-membership.png",
-        "name": "Memberships",
-        "slug": "memberships",
-      },
-      {
-        "imageUrl": "https://opensea.io/static/images/categories/maverick-pfps.png",
-        "name": "PFPs",
-        "slug": "pfps",
-      },
-      {
-        "imageUrl": "https://opensea.io/static/images/categories/maverick-photography.png",
-        "name": "Photography",
-        "slug": "photography",
-      },
-    ],
+    "usd": 1735.74,
   },
 }
 `;
@@ -83,63 +49,42 @@ exports[`index.test.ts opensea:categories 1`] = `
       "edges": [
         {
           "node": {
-            "banner": "https://i.seadn.io/gae/wwzLfDg6Fi1mKANIyhkxWVgu8SBbWRd3A2UB6q4NHd3YoBzU6C5UuDIvaOqG_5QBGyQ8lSjibO-EsKg9JP0uU6FTqpoOKwZrNv98?w=500&auto=format",
+            "banner": "https://i.seadn.io/gae/uDuiXQtKsZI9kpV7ke_yuDJSALBtPRXfiWlmO9oeqoeLE8SAjP0gIMUh0FKD18lxsuYL5dsV7QLlClwQja9UBsT8xO4VMNV5S6lx3A?w=500&auto=format",
             "drop": null,
-            "id": "Q29sbGVjdGlvblR5cGU6NjUyMzU2Ng==",
+            "id": "Q29sbGVjdGlvblR5cGU6NjcwNDM3Mw==",
             "isCategory": false,
-            "name": "The Metascapes",
-            "slug": "the-metascapes",
-            "verificationStatus": "SAFELISTED",
-            "windowCollectionStats": {
-              "floorPrice": {
-                "symbol": "ETH",
-                "unit": "0.119999",
-              },
-              "volume": {
-                "symbol": "ETH",
-                "unit": "1.68629999999999991",
-              },
-            },
-          },
-        },
-        {
-          "node": {
-            "banner": "https://i.seadn.io/gae/DLA-sw1dn7YIpH-OCaY1Ci9GAO7Vc6tMlKV-46PqvdS7quNvRXfZB214rbFAv1qG7eKx8rqqS5qgNAATHQcy-tej1BPWrqeMDWPs?w=500&auto=format",
-            "drop": null,
-            "id": "Q29sbGVjdGlvblR5cGU6MTI4NTQ1MTI=",
-            "isCategory": false,
-            "name": "Women Unite - 10k Assemble",
-            "slug": "women-unite-10k-assemble",
+            "name": "Editions x Guido",
+            "slug": "editionsxguido",
             "verificationStatus": "VERIFIED",
             "windowCollectionStats": {
               "floorPrice": {
                 "symbol": "ETH",
-                "unit": "0.1669",
+                "unit": "0.0098",
               },
               "volume": {
                 "symbol": "ETH",
-                "unit": "1.587319999999999842",
+                "unit": "1.740038889889999885",
               },
             },
           },
         },
         {
           "node": {
-            "banner": "https://i.seadn.io/gcs/files/9e60f4b7ccbca0d6b0c1c377408b5242.jpg?w=500&auto=format",
+            "banner": "https://i.seadn.io/gcs/files/78be1282a7520fe8534e276681ff2bd2.gif?w=500&auto=format",
             "drop": null,
-            "id": "Q29sbGVjdGlvblR5cGU6NTk2Mjc2NQ==",
+            "id": "Q29sbGVjdGlvblR5cGU6NzE5NTI2MQ==",
             "isCategory": false,
-            "name": "Beautiful nature by Mohamed Boukabouz",
-            "slug": "photoswondersbymohamedboukabouz",
+            "name": "Withhearts Editions",
+            "slug": "withheartseditions",
             "verificationStatus": "SAFELISTED",
             "windowCollectionStats": {
               "floorPrice": {
                 "symbol": "ETH",
-                "unit": "0.001",
+                "unit": "0.0035",
               },
               "volume": {
                 "symbol": "ETH",
-                "unit": "0.19900000000000001",
+                "unit": "0.58084990000000003",
               },
             },
           },
@@ -156,74 +101,95 @@ exports[`index.test.ts opensea:categories 1`] = `
             "windowCollectionStats": {
               "floorPrice": {
                 "symbol": "ETH",
-                "unit": "0.07",
+                "unit": "0.25",
               },
               "volume": {
                 "symbol": "ETH",
-                "unit": "0.77000000000000024",
+                "unit": "0.130000000000000004",
               },
             },
           },
         },
         {
           "node": {
-            "banner": "https://i.seadn.io/gcs/etherislands-1572734010.png?w=500&auto=format",
+            "banner": "https://i.seadn.io/gcs/files/fc8b9fa805a8be0ce66d5883af45e4f0.png?w=500&auto=format",
             "drop": null,
-            "id": "Q29sbGVjdGlvblR5cGU6NTEzNQ==",
+            "id": "Q29sbGVjdGlvblR5cGU6MjI1ODU4Mzc=",
             "isCategory": false,
-            "name": "EtherIslands",
-            "slug": "etherislands",
+            "name": "HARAMBE: LEGENDS",
+            "slug": "harambe-legends",
             "verificationStatus": "SAFELISTED",
             "windowCollectionStats": {
               "floorPrice": {
                 "symbol": "ETH",
-                "unit": "0.3318",
+                "unit": "0.099",
               },
               "volume": {
                 "symbol": "ETH",
-                "unit": "0.070000000000000007",
+                "unit": "0.100000000000000006",
               },
             },
           },
         },
         {
           "node": {
-            "banner": "https://i.seadn.io/gcs/files/efc1085c48960958256ec053ea31f488.png?w=500&auto=format",
+            "banner": "https://i.seadn.io/gae/M3_gmKaQb3rUDyfpq9tUgUv36wY-fjyy8Z7olTgA2JXxqYApySlJi16axg_XkMgmhRGS2N0DWw9YZoHLoMCwfb5ZHCwm7-eMGvPRwg?w=500&auto=format",
             "drop": null,
-            "id": "Q29sbGVjdGlvblR5cGU6MjM4MjE3MjU=",
+            "id": "Q29sbGVjdGlvblR5cGU6NDk3MDU2MA==",
             "isCategory": false,
-            "name": "Front Row with Salma",
-            "slug": "front-row-with-salma",
-            "verificationStatus": "UNAPPROVED",
+            "name": "IreneDAO",
+            "slug": "irenedao",
+            "verificationStatus": "SAFELISTED",
             "windowCollectionStats": {
               "floorPrice": {
                 "symbol": "ETH",
-                "unit": "0.0046",
+                "unit": "0.0881",
               },
               "volume": {
                 "symbol": "ETH",
-                "unit": "0.064399999999999999",
+                "unit": "0.080000000000000002",
               },
             },
           },
         },
         {
           "node": {
-            "banner": "https://i.seadn.io/gcs/files/37620ffb4a75a89ac6d532e59cb485a6.jpg?w=500&auto=format",
+            "banner": "https://i.seadn.io/gae/FT8RdW-T7bo3Tyg2ElUxS9BqmZypSw8Je_UMD9PcQBGUlnnsw6m5LPuXQZEBDZ_LrOHOdji8P54I-I00eSUh75dYBkN3puTp7s0F?w=500&auto=format",
             "drop": null,
-            "id": "Q29sbGVjdGlvblR5cGU6MjMwNDU2OTQ=",
+            "id": "Q29sbGVjdGlvblR5cGU6MTI5NjI1ODU=",
             "isCategory": false,
-            "name": "A Year in Portraits by Jeremy Cowart",
-            "slug": "a-year-in-portraits",
-            "verificationStatus": "UNAPPROVED",
+            "name": "First Day Out by DrifterShoots",
+            "slug": "firstdayout",
+            "verificationStatus": "SAFELISTED",
             "windowCollectionStats": {
               "floorPrice": {
                 "symbol": "ETH",
-                "unit": "0.003",
+                "unit": "0.021",
               },
               "volume": {
                 "symbol": "ETH",
-                "unit": "0.061999999999999986",
+                "unit": "0.064199999999999993",
+              },
+            },
+          },
+        },
+        {
+          "node": {
+            "banner": "https://i.seadn.io/gcs/files/9d0eb28a5eaa906991118cf536f921d9.jpg?w=500&auto=format",
+            "drop": null,
+            "id": "Q29sbGVjdGlvblR5cGU6NzAwMDMzMA==",
+            "isCategory": false,
+            "name": "FREE MINT Editions X Tylersjourney",
+            "slug": "editionsxtylersjourney",
+            "verificationStatus": "SAFELISTED",
+            "windowCollectionStats": {
+              "floorPrice": {
+                "symbol": "ETH",
+                "unit": "0.001494",
+              },
+              "volume": {
+                "symbol": "ETH",
+                "unit": "0.035166999999999997",
               },
             },
           },
