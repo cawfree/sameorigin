@@ -24,7 +24,6 @@ export async function createStealthBrowserContext({
       args: [
         '--hide-scrollbars',
         '--mute-audio',
-        '--no-sandbox' /* dangerous */,
         '--disable-dev-shm-usage',
         ...args,
       ],
