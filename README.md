@@ -38,6 +38,10 @@ const {data} = await axios({
 await close();
 ```
 
+> **Warning**
+> 
+> Some interfaces defend against tools like `sameorigin` by making an analysis of the runtime window. If you find your requests are being rejected, please instantiate `sameorigin` using `headless: false` as a workaround.
+
 ### 🤔 How does it work?
 
 When making a call to [`sameorigin`](https://github.com/cawfree/sameorigin), we allocate an instance of [`puppeteer`](https://github.com/puppeteer/puppeteer) in the background which is used to capture requests and serve as a trusted origin for API requests to originate from.
