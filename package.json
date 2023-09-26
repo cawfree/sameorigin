@@ -1,9 +1,9 @@
 {
   "name": "@cawfree/sameorigin",
-  "version": "0.0.1-alpha.1",
+  "version": "0.0.1-alpha.3",
   "description": "🤖 🧪 Masquerade as if you were their own frontend.",
   "main": "dist",
-  "repository": "https://github.com/cawfree/blurship",
+  "repository": "https://github.com/cawfree/sameorigin",
   "author": "cawfree <hello@cawfree.com>",
   "license": "CC0-1.0",
   "private": false,
